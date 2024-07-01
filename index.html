@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto p-5">
+    <h1 class="text-center text-2xl font-semibold">Todo Application</h1>
+    <ul class="list-disc list-inside space-y-3" id="todo">
+      
+    </ul>
+    <form>
+      <input
+        class="border p-2 rounded-md border-gray-300 mt-3"
+        type="text"
+        placeholder="Leanring Python"
+      />
+      <button
+        class="bg-green-600 rounded-md px-4 py-2 font-semibold text-gray-100 hover:bg-green-600"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
